@@ -6,6 +6,8 @@ public class Feeder {
      */
     private int currentFood;
 
+
+
     /**
      * Simulates one day with numBirds birds or possibly a bear at the bird
      * feeder, as described in part (a) Precondition: numBirds > 0
@@ -22,6 +24,15 @@ public class Feeder {
     public int simulateManyDays(int numBirds, int numDays)
     {
         return 0;
+    }
+
+    public int getCurrentFood()
+    {
+        return currentFood;
+    }
+    public Feeder(int c)
+    {
+        currentFood = c;
     }
 
 }
