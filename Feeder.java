@@ -14,6 +14,8 @@ public class Feeder {
      */
     public void simulateOneDay(int numBirds)
     {
+        int random = (int) (Math.random() * 10 +1);
+        System.out.println(random);
     }
 
     /**
